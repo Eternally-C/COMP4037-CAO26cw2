@@ -8,4 +8,4 @@ Contents:
 - `cw2_heatmap_final.png`: final matrix heatmap used in the report
 
 Method summary:
-The script loads NHS hospital admissions data from 2021–22 to 2023–24, aggregates 3-character primary diagnosis categories, converts age-group counts into within-category proportions, selects 18 diagnosis categories with strong age-group concentration patterns, and generates the final heatmap.
+The script loads NHS hospital admissions data from 2021–22 to 2023–24, aggregates 3-character primary diagnosis categories across the three years, computes an admissions-weighted mean age, converts age-group counts into within-category proportions for the final non-Age-0 heatmap analysis, selects 18 diagnosis categories with strong age-group concentration patterns, and generates the final heatmap.
